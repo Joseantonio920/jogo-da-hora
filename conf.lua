@@ -12,6 +12,9 @@ function love.conf(t)
 	t.window.fullscreentype="desktop"
 	t.window.vsync=true
 	t.window.display=nil
+	t.window.usedpiscale=false
+	t.window.highdpiscale=false
+	t.window.dpiscale=1
 	t.window.x=nil
 	t.window.y=nil
 	
