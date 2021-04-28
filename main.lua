@@ -20,6 +20,8 @@ world:addObj(Block:new(lg.getWidth()+lg.getWidth()/2, lg.getHeight()-40, 16, 16)
 
 function love.draw()
 	world:draw()
+	lg.setColor(.30, .60, .86)
+    lg.rectangle('fill', 0, 0, 1024, 256)
 end
 
 function love.update(dt)
